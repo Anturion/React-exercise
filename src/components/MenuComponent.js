@@ -8,6 +8,10 @@ class Menu extends Component {
 
     }
 
+    componentDidMount(){
+        console.log('Menu Component componentDidMount invoked')
+    }
+
     render() {
 
         const menu = this.props.dishes.map((dish) => {
